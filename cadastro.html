@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário - Cyber Cash</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Importando o arquivo de estilo -->
+</head>
+<body>
+<header>
+    <h1>Crie sua conta</h1>
+    <section>
+        <p>
+            Olá, vamos dar início à criação da sua nova conta.
+            Para isso, é necessário preencher o formulário com as informações requeridas.
+        </p>
+    </section>
+    <form action="" method="post" autocomplete="on">
+        <div>
+            <label for="Buscar">Buscar:</label>
+            <input type="search" name="Buscar" id="Buscar" autocomplete="url" minlength="3" maxlength="2000" placeholder="Digite o termo da sua pesquisa">
+        </div>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Pesquisar">
+    </form>
+    <nav>
+        <menu>
+            <a href="index.html" title="Página inicial">Início</a>
+            <a href="explorar.html" title="Navegue pela plataforma">Explorar</a>
+            <a href="painel.html" title="Altere, troque, remova e muito mais">Painel do usuário</a>
+            <a href="pagamentos.html" title="Faça ou receba pagamentos">Pagamentos</a>
+            <a href="saldos.html" title="Confira seu saldo">Saldos</a>
+            <a href="transferencias.html" title="Realize suas transferências">Transferências</a>
+            <a href="deposito.html" title="Realize depósitos para sua conta">Depósitos</a>
+            <a href="info.html" title="Saiba mais sobre as informações do projeto">Informações</a>
+            <a href="desenvolvedores.html" title="Obtenha informações sobre nossa equipe">Desenvolvedores</a>
+            <a href="ajuda.html" title="Obtenha a ajuda necessária para você">Suporte ao usuário</a>
+            <a href="#" title="Mais opções">Mais...</a>
+        </menu>
+    </nav>
+</header>    
+<h3>Iniciar o seu cadastro</h3>
+
+<form action="" method="post" autocomplete="on">
+    <div>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="Nome" id="Nome" required autocomplete="name" placeholder="Digite o seu nome" minlength="3">
+    </div>
+    <div>
+        <label for="Sobrenome">Sobrenome:</label>
+        <input type="text" name="Sobrenome" id="Sobrenome" required autocomplete="additional-name" placeholder="Qual o seu sobrenome?" minlength="3">
+    </div>
+    <div>
+        <label for="Código do país">Código do país:</label>
+        <input type="number" name="Código do país" id="Código do país" required autocomplete="tel-national" placeholder="Código do país (ex: Brasil +55)">
+    </div>
+    <div>
+        <label for="Número de telefone">Número de telefone:</label>
+        <input type="tel" name="Número de telefone" id="Número de telefone" required autocomplete="tel" placeholder="Digite o número do seu telefone (+**)">
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email" required autocomplete="email" placeholder="Digite um endereço de email" minlength="5" maxlength="30">
+    </div>
+    <div>
+        <label for="Senha">Senha:</label>
+        <input type="password" name="Senha" id="Senha" required autocomplete="new-password" placeholder="Digite uma senha válida" minlength="10" maxlength="30">
+    </div>
+    <div>
+        <label for="Confirme sua Senha">Confirme sua Senha:</label>
+        <input type="password" name="Confirme sua Senha" id="Confirme sua Senha" required autocomplete="new-password" placeholder="Digite sua senha novamente">
+    </div>
+    <input type="reset" value="Limpar">
+    <input type="submit" value="Cadastrar">
+</form>
+<div>
+    <h3>Já tem uma conta?</h3>
+    <a href="login.html" title="Entre na sua conta">Acesse já</a>
+</div>
+<footer>
+    <h4>Rodapé</h4>
+    <div>
+        <menu>
+            <a href="desenvolvedores.html">Desenvolvedores</a>
+            <a href="nossaplataforma.html">Nossa plataforma</a>
+            <a href="#">Privacidade e segurança</a>
+            <a href="info.html">Informações gerais</a>
+            <a href="#">Diagnósticos</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Acessibilidade</a>
+            <a href="ajuda.html">Ajuda e suporte</a>
+            <a href="#">Colaboradores</a>
+        </menu>
+        
+        &#169; 2023 a 2024 <a href="https://eduardo-henrique-da-silva.github.io/Cyber-Cash-/">CyberCash Corporation</a>
+    </div>
+    
+</footer>
+
+</body>
+</html>
