@@ -21,14 +21,16 @@
                             </menu>
                 </details>
     <a href="#"><img src="imagem/Infinity_Banking__7_-removebg-preview.png" alt="">Logo da Empresa</a>
-        <form action="" method="post" autocomplete="on">
-        <div>
+    <div class="pesquisa">
+            <form action="explorar.html" method="post" autocomplete="on">
             <label for="Buscar">Buscar:</label>
             <input type="search" name="Buscar" id="Buscar" required autocomplete="on" placeholder="Digite o termo da sua pesquisa." minlength="8" maxlength="2000">
         </div>
         <input type="reset" value="Limpar">
         <input type="submit" value="Pesquisar">
     </form>    
+</    div>
+
     <a href="login.html" target="_blank" title="Entre para ter acesso aos nossos serviços e recursos">Faça login</a>
     </header>
 
@@ -169,6 +171,15 @@ Detalhes
         &#169 2023 a 2024 <a href="https://eduardo-henrique-da-silva.github.io/Cyber-Cash-Corporation/index.html" target="_blank">CyberCash Corporation</a>
     </div>
 </footer>
+<div class="pesquisa"></div>
+<script>
+var _forme = document.getElementsByName('forme');
+if (_forme.length > 0) {
+    var forme = _forme [0].innerText;
+console.log('forme');
+}
 
+
+</script>
 </body>
 </html>
